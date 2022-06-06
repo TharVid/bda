@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Compair{
+    public static void main(String[] arg){
+        Scanner name = new Scanner(System.in);
+        String name1= "Ram";
+        System.out.println("Enter Fname");
+        String name2= name.next();
+        if (name2.equals(name1)){
+            System.out.println("Same");
+        }else{
+            System.out.println("Not Same");
+        }
+        
+    }
+}
